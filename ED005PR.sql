@@ -1,0 +1,22 @@
+CREATE TABLE ED005PR (
+    TRKNO               NUMBER(7,0),
+    CUSNO               NUMBER(8,0),
+    SHPNO               NUMBER(2,0),
+    PRTNO               VARCHAR2(15),
+    DUEDT               NUMBER(8,0),
+    CORNO               VARCHAR2(20),
+    CPRTN               VARCHAR2(20),
+    SHPQY               NUMBER(7,0),
+    SHDQY               NUMBER(7,0),
+    SORNO               VARCHAR2(10),
+    QTUNT               NUMBER(7,0),
+    UNMSR               VARCHAR2(2),
+    UNMDC               VARCHAR2(3),
+    CPDSC               VARCHAR2(25),
+    ITCLS               VARCHAR2(2),
+    HOUSE               VARCHAR2(1),
+    WHSLC               VARCHAR2(5),
+    REGISTERED_AT       DATE,
+    REGISTERED_COMPNAME VARCHAR2(50),
+    REGISTERED_COMPCODE VARCHAR2(50)
+);
